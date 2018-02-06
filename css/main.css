@@ -1,0 +1,182 @@
+/*TAG´S*/
+
+body {
+  background-color: #0079BF;
+  box-sizing: border-box;
+}
+
+header{
+  background-color: #0067A3;
+	background-repeat: no-repeat;
+	background-position: center;
+  color: white;
+  height: 4em;
+  font-size: 0.8em;
+  font-weight: 600;
+  position: fixed;
+  padding: 0.4em;
+  text-align: center;
+  width: 100%;
+}
+
+/*ID'S*/
+#contenedor{
+  padding-top: 3.5em;
+  white-space: nowrap;
+}
+
+/*CLASES*/
+
+.agregar {
+  background-color: #E2E4E6;
+  border-radius: 5px;
+  color: gray;
+  height: 3em;
+  margin: 0.6em 0.5em;
+  padding: 0.6em;
+  width: 15em;
+}
+
+.agregar:hover{
+  background-color: lightgray;
+}
+
+.bg-blue{
+  background-color: #0067A3;
+}
+
+.buscador{
+  background-color: #569BC4;
+  border: none;
+  border-radius: 5px;
+  margin-top: 0.6em;
+  opacity: 0.8;
+  padding: 0.3em 0.5em;
+}
+
+.boton {
+  background-color: #5BAE45;
+  border-radius: 5px;
+  border: none;
+  color: white;
+  display: block;
+  margin: 0.3em 0.7em;
+  padding: 0.5em 3em;
+}
+
+.entrada {
+  border: none;
+  border-radius: 5px;
+  margin: 0.3em 0.7em;
+  padding: 0.3em;
+  width: 94%;
+}
+
+.formulario {
+    width: 17em;
+    height: auto;
+    margin: 0.6em 0.5em;
+    padding: 0.3em;
+  background-color: #E2E4E6;
+  border-radius: 5px;
+}
+
+.icono-plus{
+  background-color: #569BC4;
+  border-radius: 5px;
+  margin-top: 0.6em;
+  padding: 0.5em 0.5em;
+}
+
+.lista {
+    width: 17em;
+    height: 3em;
+    margin: 0.6em 0.5em;
+    background-color: #0067A3;
+    padding: 0.6em;
+    color: white;
+    border-radius: 5px;
+}
+
+.nombre{
+  background-color: #569BC4;
+  border-radius: 5px;
+  margin-top: 0.6em;
+  padding: 0.3em 1em;
+}
+
+.nuevaLista{
+    width: 15em;
+    height: 3em;
+    margin: 0.6em 0.5em;
+    background-color: #E2E4E6;
+    padding: 0.5em;
+    font-weight: bold;
+    border-radius: 5px;
+}
+
+.opacidad{
+    background-color: grey;
+    opacity: 0.5;
+    cursor: pointer;
+}
+
+.tableros{
+  background-color: #569BC4;
+  border-radius: 5px;
+  margin-top: 0.6em;
+  padding: 0.3em 1em;
+}
+
+.text-tarjetas {
+    width: 15em;
+    height: 3em;
+    margin: 0.6em 0.5em;
+    background-color: white;
+    padding: 0.6em;
+    border-radius: 5px;
+}
+
+.transicion{
+   transition: all 0.7s ease;
+   transform:scale(1.04);
+}
+
+.trello-body{
+    padding: 0.5em;
+    margin: 0.5em;
+    width: 17em;
+    background-color: #E2E4E6;
+    vertical-align: top;
+    border-radius: 5px;
+    display: inline-block;
+}
+
+.receptor{
+    width: 15em;
+    height: 3em;
+    margin: 0.6em 0.5em;
+    background-color: gray;
+    padding: 0.6em;
+    border-radius: 5px;
+}
+
+.textarea{
+  border-radius: 5px;
+  margin: 0.3em 0.7em;
+  padding: 0.3em;
+  width: 92%;
+}
+
+/*clases_reutilizab*/
+.d-inlineblock {
+  display: inline-block;
+}
+
+.d-none{
+  display: none;
+}
+
+.m-right5{
+  margin-right: 0.5em;
+}
